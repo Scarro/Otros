@@ -1,0 +1,110 @@
+@font-face{
+    font-family: Champagne;
+    src: url(champagne/Champagne.ttf);
+}
+
+@media(max-width: 768px){
+    #lista {
+        height:282px;
+    }
+}
+
+@media(min-width:768px){
+    #lista{
+        height:720px;
+    }
+}
+
+#map {
+    height:450px;
+    border:1px solid black;
+}
+
+.fuente {
+    font-family: 'Champagne';
+    font-size: 19px;
+}
+
+.titulo {
+    font-family: 'Champagne';
+    font-weight: 800;
+    text-decoration: underline;
+    color: #1e1e7b;
+    text-align:center;
+}
+
+#myNavbar > ul {
+    display:none;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+#main-nav:hover, .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.lista-hoteles{
+    overflow-y: auto;
+    height:80px;
+}
+
+a.list-group-item:hover {
+    cursor:pointer;
+}
+
+.navegador {
+    font-size: 40px;
+    text-decoration: none;
+}
+
+#lista {
+    overflow-y: scroll;
+}
+
+#collection-list {
+    overflow-y: auto;
+    height:740px;
+}
+
+.imagen {
+    float:right;
+    margin-top:50px;
+}
+
+.detalle {
+    text-align:left;
+    margin-bottom: 10px;
+}
+
+#detalles {
+    margin-top:30px;
+}
+
+#detalles > p {
+    margin-bottom: 20px;
+}
+
+.tipo {
+    border-radius: 3px;
+    border:1px solid black;
+    background-color: blue;
+    color: white;
+}
+
+.categoria {
+    border-radius: 3px;
+    border:1px solid black;
+    background-color: gray;
+    color: white;
+}
+
+.error {
+    color:red;
+    height:10px;
+}
+
+.primera {
+    margin-top: 30px;
+}
